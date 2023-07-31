@@ -1,0 +1,77 @@
+// Colors
+$clr-primary-1: hsl(180, 62%, 55%);
+$clr-primary-2: hsl(0, 78%, 62%);
+$clr-primary-3: hsl(34, 97%, 64%);
+$clr-primary-4: hsl(212, 86%, 64%);
+
+$clr-neutral-1: hsl(0, 0%, 98%);
+$clr-neutral-2: hsl(229, 6%, 66%);
+$clr-neutral-3: hsl(234, 12%, 34%);
+
+// Globals
+body {
+  background-color: $clr-neutral-1;
+}
+
+h1,
+h2 {
+  color: $clr-neutral-3;
+}
+
+p {
+  color: $clr-neutral-2;
+  line-height: 1.8;
+}
+
+@include media-breakpoint-up(lg) {
+  .grid {
+    --bs-rows: 4;
+  }
+}
+
+.container-header p {
+  max-width: 55ch;
+}
+
+// Cards
+.card {
+  &-img {
+    border-radius: 0;
+    pointer-events: none;
+    width: 4rem;
+
+    @include media-breakpoint-up(md) {
+      width: 4.5rem;
+    }
+  }
+
+  &-1 {
+    --bs-border-color: #{$clr-primary-1};
+    @extend %grid-row-start-2;
+  }
+
+  &-2 {
+    --bs-border-color: #{$clr-primary-2};
+    @extend %grid-row-span-2;
+  }
+
+  &-3 {
+    --bs-border-color: #{$clr-primary-3};
+    @extend %grid-row-span-2;
+  }
+
+  &-4 {
+    --bs-border-color: #{$clr-primary-4};
+    @extend %grid-row-start-2;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  %grid-row-start-2 {
+    grid-row: 2 / span 2;
+  }
+
+  %grid-row-span-2 {
+    grid-row: span 2;
+  }
+}
