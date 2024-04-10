@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- **Solution:** [Add solution URL here](https://your-solution-url.com)
-- **Live Site:** [Add live site URL here](https://your-live-site-url.com)
+- **Solution:** [Frontend Mentor: Four card feature section](https://www.frontendmentor.io/solutions/four-card-feature-section-JdiIZo_7Q3)
+- **Live Site:** [https://fem-card-feature.pages.dev](https://fem-card-feature.pages.dev)
 
 ## My process
 
@@ -38,8 +38,8 @@ This project was built using the following frontend technologies and methodologi
 
 - **Semantic HTML5 markup:** To provide a clear and meaningful structure to the content.
 - **SASS:** To write CSS more efficiently with nested rules, variables, and mixins.
-<!-- ! Fix 'bootstrap' description -->
-- **Bootstrap:** A popular frontend framework that provides a set of pre-designed HTML, CSS, and JavaScript components and styles. It helps developers create responsive and visually appealing websites with ease.
+- **Bootstrap:** I used Bootstrap to create a visually appealing and responsive design for the website content efficiently.
+- **Gulp:** I use Gulp to automate my workflow by efficiently compiling and bundling specific project files, making my tasks easier and more streamlined.
 
 ### Useful resources
 
@@ -50,7 +50,8 @@ Here are some valuable resources that I found helpful during the development of 
 - [Bootstrap Docs: Options](https://getbootstrap.com/docs/5.3/customize/options/): Gain insights into the multitude of options available within Bootstrap, allowing you to toggle global CSS preferences and tailor the framework to suit your specific needs.
 - [Bootstrap Docs: Optimize](https://getbootstrap.com/docs/5.3/customize/optimize/): Discover techniques for optimizing your Bootstrap implementation, including tips on maintaining and delivering minified files for improved performance.
 - [SASS documentation](https://sass-lang.com/documentation): The official SASS documentation serve as a valuable reference for understanding the syntax, features, and capabilities of SASS.
+- [Gulp documentation](https://gulpjs.com/): The official Gulp documentation provides information regarding the features and capabilities of various Gulp APIs and Plugins.
 
 ## Author
 
-This project was created by **Fortune Iyoha**. If you want to connect with me or view more of my projects, you can visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/fortune-i-o) or follow me on [Twitter](https://twitter.com/fortuneiyoha) for updates and web development discussions.
+This project was created by **Fortune Iyoha**. If you want to connect with me or view more of my projects, you can visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/fortune-i-o) or follow me on [𝕏 (formerly Twitter)](https://x.com/fortuneiyoha) for updates and web development discussions.
